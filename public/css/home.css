@@ -1,0 +1,63 @@
+.main-article {
+    padding: 10px;
+
+}
+
+
+.contenedor-imagenes {
+    position: relative;    
+
+}
+
+.main-imagenes {
+    width: 100%;
+}
+
+.etiquetas {
+    width: 50px;
+    position: absolute;
+    left:78%;
+    z-index: 10;
+}
+
+.ampliar-foto{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40%;
+    right: 0%;
+    width: 100%;
+    z-index: 15;
+   background-color: black;
+   opacity: 0.5;
+   padding: 5px;
+}
+
+.main-article h1{
+    text-align: start;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.main-article p{
+    text-align: start;
+    font-size: 12px;
+}
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+.main-article button{
+    background-color: var(--color-darkgrey);
+    color: white;
+    padding: 1px 3px;
+}
+
+@media (max-width:320px) {
+    .banner {
+        display: none;
+    }
+
+}

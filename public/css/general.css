@@ -1,0 +1,20 @@
+:root {
+    --color-withe: #fff;
+    --color-red: #b5181d;
+    --color-grey: #ebebeb;
+    --color-darkgrey: #6c6968;
+  }
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+  }
+
+  body{
+    background-image: url('/img/bg-body.png');
+    background-attachment: fixed;
+    width: 100;
+    text-align: center;
+  }

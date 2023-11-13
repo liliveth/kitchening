@@ -1,0 +1,8 @@
+footer li{
+    background-color: var(--color-red);
+    color: white;
+    margin: 5px;
+}
+footer a{
+    color: white;
+}
